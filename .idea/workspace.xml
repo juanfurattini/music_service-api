@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b799eb5-86b0-4c00-9a7b-bc00ed72f320" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/concerns/attachment_support.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/concerns/image_support.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/serializers/album_serializer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/paperclip.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -78,9 +74,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_record.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application_record.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="image_support.rb" pinned="false" current-in-tab="false">
@@ -101,15 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artist_serializer.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/serializers/artist_serializer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -126,6 +122,11 @@
       <find>auto</find>
       <find>autoload</find>
       <find>serializersupport</find>
+      <find>/config/master.key</find>
+      <find>.byebug_history</find>
+      <find>storage</find>
+      <find>/db/*.sqlite3</find>
+      <find>.bundle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,6 +171,7 @@
         <option value="$PROJECT_DIR$/app/models/concerns/attachment_support.rb" />
         <option value="$PROJECT_DIR$/app/models/album.rb" />
         <option value="$PROJECT_DIR$/app/models/song.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -373,12 +375,12 @@
       <workItem from="1525044516750" duration="3553000" />
       <workItem from="1525081038858" duration="3819000" />
       <workItem from="1525665121393" duration="445000" />
-      <workItem from="1525723278860" duration="20052000" />
+      <workItem from="1525723278860" duration="20485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29117000" />
+    <option name="totallyTimeSpent" value="29550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -703,6 +705,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
